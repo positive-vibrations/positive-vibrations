@@ -1,46 +1,64 @@
 baseURL: https://risotto.joeroe.io
+
 theme: risotto
-title: risotto demo
-author: Joe Roe
-copyright: © 2021 Joe Roe
+title: Joshua Kwalk
+author: Joshua Kwalk
+# copyright: © 2021 Josh Kwalk
+
 paginate: 3
 languageCode: en
 DefaultContentLanguage: en
 enableInlineShortcodes: yes
+
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors: error-remote-getjson
+
+# Automatically add content sections to main menu
 sectionPagesMenu: main
+
 params:
+
   about:
-    description: A [hugo](https://gohugo.io) theme inspired by terminal ricing.
-    logo: images/rice.svg
-    title: risotto
+    description: Quantitative Economics student at California State Polytechnic University, Pomona
+    # logo: 
+    title: Joshua Kwalk
+    
   socialLinks:
     - icon: fab fa-github
       title: GitHub
-      url: https://github.com/joeroe/risotto
+      url: https://github.com/positive-vibrations/positive-vibrations
     - icon: fas fa-envelope
       title: Email
-      url: mailto:example@example.com
+      url: mailto:jkwalk@proton.me
     - icon: ai ai-orcid
       title: ORCID
       url: https://orcid.org/0000-0001-2345-6789
+      
   theme:
     mode: dark-mode
     palette: gruvbox-dark
+    
 menu:
   main:
     - identifier: about
       name: About
       url: /about/
       weight: 10
+      
+      
+      
+      
 taxonomies:
   category: categories
   series: series
   tag: tags
+  
 markup:
   goldmark:
     renderer:
       unsafe: yes
+      
 privacy:
   instagram:
     disabled: no
@@ -55,6 +73,7 @@ privacy:
   youtube:
     disabled: no
     privacyEnhanced: yes
+    
 services:
   instagram:
     disableInlineCSS: yes
