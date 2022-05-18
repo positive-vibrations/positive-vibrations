@@ -31,9 +31,7 @@ params:
     - icon: fas fa-envelope
       title: Email
       url: mailto:jkwalk@proton.me
-    - icon: ai ai-orcid
-      title: ORCID
-      url: https://orcid.org/0000-0001-2345-6789
+
       
   theme:
     mode: dark-mode
@@ -44,6 +42,10 @@ menu:
     - identifier: about
       name: About
       url: /about/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
       weight: 10
       
       
