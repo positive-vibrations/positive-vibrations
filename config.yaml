@@ -1,7 +1,7 @@
 baseURL: https://positive-vibrations.netlify.app
 
 theme: risotto
-title: Joshua Kwalk
+title: J. Kwalk
 author: Joshua Kwalk
 # copyright: © 2021 Josh Kwalk
 
@@ -27,7 +27,7 @@ params:
   socialLinks:
     - icon: fab fa-github
       title: GitHub
-      url: https://github.com/positive-vibrations/positive-vibrations
+      url: https://github.com/positive-vibrations
     - icon: fas fa-envelope
       title: Email
       url: mailto:jkwalk@proton.me

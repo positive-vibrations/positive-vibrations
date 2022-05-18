@@ -1,6 +1,5 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
+title: "Forecasts of Median Sale Price of Housing in US"
 date: 2020-12-01T21:13:14-05:00
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
